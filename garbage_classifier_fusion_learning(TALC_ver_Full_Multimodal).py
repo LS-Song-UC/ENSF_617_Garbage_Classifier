@@ -68,7 +68,7 @@ def main():
 
     """Device Setup"""
 
-    device = torch.device("CUDA" if torch.cuda.is_available() else "cpu")
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     print("Using device:", device)
 
     """Paths/Parameters/Settings definitions"""
