@@ -1,0 +1,5 @@
+garbage_data/
+
+best_text_model.pth
+best_image_model.pth
+best_multimodal_model.pth
