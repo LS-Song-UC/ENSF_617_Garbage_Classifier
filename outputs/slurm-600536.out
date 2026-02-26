@@ -1,0 +1,110 @@
+Downloading: "https://download.pytorch.org/models/resnet50-11ad3fa6.pth" to /home/le.song/.cache/torch/hub/checkpoints/resnet50-11ad3fa6.pth
+Using device: cuda
+Train samples: 11629
+Val samples: 1800
+Test samples: 3432
+  0%|          | 0.00/97.8M [00:00<?, ?B/s] 10%|█         | 10.3M/97.8M [00:00<00:00, 108MB/s] 21%|██        | 20.7M/97.8M [00:00<00:00, 109MB/s] 32%|███▏      | 31.4M/97.8M [00:00<00:00, 110MB/s] 43%|████▎     | 42.0M/97.8M [00:00<00:00, 109MB/s] 54%|█████▍    | 52.9M/97.8M [00:00<00:00, 111MB/s] 65%|██████▍   | 63.5M/97.8M [00:00<00:00, 111MB/s] 76%|███████▌  | 74.0M/97.8M [00:00<00:00, 110MB/s] 86%|████████▋ | 84.5M/97.8M [00:00<00:00, 109MB/s] 98%|█████████▊| 95.4M/97.8M [00:00<00:00, 111MB/s]100%|██████████| 97.8M/97.8M [00:00<00:00, 109MB/s]
+Epoch 1/10 Train Loss: 0.7551 Val Loss: 0.6224
+Saved best model.
+Epoch 2/10 Train Loss: 0.6240 Val Loss: 0.6224
+Saved best model.
+Epoch 3/10 Train Loss: 0.5726 Val Loss: 0.5928
+Saved best model.
+Epoch 4/10 Train Loss: 0.5362 Val Loss: 0.5715
+Saved best model.
+Epoch 5/10 Train Loss: 0.5115 Val Loss: 0.5881
+Unfreezing backbone...
+Epoch 6/10 Train Loss: 0.4719 Val Loss: 0.5436
+Saved best model.
+Epoch 7/10 Train Loss: 0.4276 Val Loss: 0.5334
+Saved best model.
+Epoch 8/10 Train Loss: 0.3970 Val Loss: 0.5290
+Saved best model.
+Epoch 9/10 Train Loss: 0.3594 Val Loss: 0.5017
+Saved best model.
+Epoch 10/10 Train Loss: 0.3279 Val Loss: 0.5263
+Loss curve saved to /home/le.song/Assignment2/loss_curve.png
+Test Accuracy: 0.7398
+Misclassified samples written to /home/le.song/Assignment2/misclassified.txt
+Using device: cuda
+Train samples: 11629
+Val samples: 1800
+Test samples: 3432
+Epoch 1/10
+Train Loss: 0.7768
+Train Acc:  0.7148
+Val Loss:   0.5939
+Val Acc:    0.7878
+----------------------------------------
+Epoch 2/10
+Train Loss: 0.5824
+Train Acc:  0.7900
+Val Loss:   0.5308
+Val Acc:    0.8128
+----------------------------------------
+Epoch 3/10
+Train Loss: 0.5345
+Train Acc:  0.8086
+Val Loss:   0.5001
+Val Acc:    0.8178
+----------------------------------------
+Epoch 4/10
+Train Loss: 0.5074
+Train Acc:  0.8166
+Val Loss:   0.4816
+Val Acc:    0.8256
+----------------------------------------
+Epoch 5/10
+Train Loss: 0.4952
+Train Acc:  0.8192
+Val Loss:   0.4695
+Val Acc:    0.8278
+----------------------------------------
+Unfreezing DistilBERT backbone...
+Epoch 6/10
+Train Loss: 0.4039
+Train Acc:  0.8522
+Val Loss:   0.3449
+Val Acc:    0.8794
+----------------------------------------
+Epoch 7/10
+Train Loss: 0.2715
+Train Acc:  0.9050
+Val Loss:   0.3318
+Val Acc:    0.8950
+----------------------------------------
+Epoch 8/10
+Train Loss: 0.2116
+Train Acc:  0.9249
+Val Loss:   0.3226
+Val Acc:    0.8933
+----------------------------------------
+Epoch 9/10
+Train Loss: 0.1677
+Train Acc:  0.9399
+Val Loss:   0.4054
+Val Acc:    0.8817
+----------------------------------------
+Epoch 10/10
+Train Loss: 0.1462
+Train Acc:  0.9483
+Val Loss:   0.3947
+Val Acc:    0.8961
+----------------------------------------
+Test Accuracy: 84.38%
+Number of misclassified samples: 536
+Epoch 1/12 Train Loss: 0.1320 Val Loss: 0.4087 Val Acc: 0.9089
+Epoch 2/12 Train Loss: 0.0876 Val Loss: 0.4808 Val Acc: 0.9100
+Epoch 3/12 Train Loss: 0.0795 Val Loss: 0.5117 Val Acc: 0.9106
+Epoch 4/12 Train Loss: 0.0690 Val Loss: 0.5176 Val Acc: 0.9122
+Epoch 5/12 Train Loss: 0.0630 Val Loss: 0.5712 Val Acc: 0.8911
+Epoch 6/12 Train Loss: 0.0835 Val Loss: 0.6512 Val Acc: 0.9006
+Epoch 7/12 Train Loss: 0.0714 Val Loss: 0.6913 Val Acc: 0.9033
+Epoch 8/12 Train Loss: 0.0592 Val Loss: 0.7040 Val Acc: 0.9011
+Epoch 9/12 Train Loss: 0.0747 Val Loss: 0.7483 Val Acc: 0.8950
+Epoch 10/12 Train Loss: 0.0446 Val Loss: 0.9458 Val Acc: 0.9006
+Epoch 11/12 Train Loss: 0.0362 Val Loss: 0.9051 Val Acc: 0.9017
+Epoch 12/12 Train Loss: 0.0230 Val Loss: 0.9497 Val Acc: 0.9022
+
+Final Multimodal Test Accuracy: 0.8415
+Misclassified multimodal samples logged to /home/le.song/Assignment2/mm_misclassified.txt
