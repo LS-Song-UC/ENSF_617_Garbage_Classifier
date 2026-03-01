@@ -1,0 +1,68 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2867
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c0;}
+\margl1440\margr1440\vieww11520\viewh8400\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs22 \cf2 \CocoaLigature0 \
+\
+\
+Confusion Matrix:\
+[[345 181  45 124]\
+ [ 97 867  46  76]\
+ [ 39  54 691  15]\
+ [ 71 141  27 613]]\
+\
+Fine-Tuned Image Classification Report:\
+=======================================\
+              precision    recall  f1-score   support\
+\
+       Black       0.62      0.50      0.55       695\
+        Blue       0.70      0.80      0.74      1086\
+       Green       0.85      0.86      0.86       799\
+         TTR       0.74      0.72      0.73       852\
+\
+    accuracy                           0.73      3432\
+   macro avg       0.73      0.72      0.72      3432\
+weighted avg       0.73      0.73      0.73      3432\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+MULTIMODAL LOSS/MODALITY TRUST\
+==============================\
+Epoch 15/20 Train Loss: 0.4913 Val Loss: 0.5526 Val Acc: 0.9128\
+Image modality trust: 0.496\
+Epoch 16/20 Train Loss: 0.4904 Val Loss: 0.5520 Val Acc: 0.9111\
+Image modality trust: 0.496\
+Epoch 17/20 Train Loss: 0.4869 Val Loss: 0.5513 Val Acc: 0.9139\
+Image modality trust: 0.496\
+Saved best model to /home/le.song/Assignment2/best_fusion_model.pth\
+Epoch 18/20 Train Loss: 0.4855 Val Loss: 0.5505 Val Acc: 0.9128\
+Image modality trust: 0.496\
+Saved best model to /home/le.song/Assignment2/best_fusion_model.pth\
+Epoch 19/20 Train Loss: 0.4867 Val Loss: 0.5518 Val Acc: 0.9139\
+Image modality trust: 0.496\
+Epoch 20/20 Train Loss: 0.4853 Val Loss: 0.5520 Val Acc: 0.9122\
+Image modality trust: 0.496\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+\
+\
+MULTIMODAL FINAL PERFORMANCE\
+==============================\
+              precision    recall  f1-score   support\
+\
+       Black       0.79      0.76      0.77       695\
+        Blue       0.84      0.91      0.87      1086\
+       Green       0.93      0.94      0.93       799\
+         TTR       0.90      0.82      0.86       852\
+\
+    accuracy                           0.86      3432\
+   macro avg       0.86      0.86      0.86      3432\
+weighted avg       0.86      0.86      0.86      3432\
+\
+Confusion Matrix saved to /home/le.song/Assignment2/mm_confusion_matrix.png\
+\
+Overall accuracy: 0.8625\
+Final Multimodal Accuracy: 86.2470862470862442705766%}
