@@ -10,7 +10,7 @@
 1. garbage_classifier_fusion_learning(TALC_ver_Full_Multimodal).py
 
 ## Results
-[Run Resulting Confusion Matrix and Metrics](Run Resulting Confusion Matrix and Metrics.docx)
+[Run Resulting Confusion Matrix and Metrics](Run%20Resulting%20Confusion%20Matrix%20and%20Metrics.docx)
 This document contains the results after running the complete multimodal training on TALC cluster.
 
 ### Run Results
