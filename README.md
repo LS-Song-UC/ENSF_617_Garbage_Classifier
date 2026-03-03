@@ -16,6 +16,7 @@ This document contains the results after running the complete multimodal trainin
 ### Run Results
 
 #### Graphs and Outputs
+```text
 ./run_result
 .
 ├── Console_Outputs.rtf
@@ -36,3 +37,4 @@ This document contains the results after running the complete multimodal trainin
 ├── ResNET_garbage_loss_chart_image_Fine_Tuned.png
 ├── Stats for Report.rtf
 └── Text_loss_curve.png
+```
