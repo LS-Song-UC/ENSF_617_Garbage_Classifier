@@ -1,5 +1,8 @@
 # ENSF-617 Assignment 2 - Garbage Classification
 
+## Flowchart
+![Flowchart](./assets/Garbage_Classification_Transfer_Learning_Flowchart.png)
+
 ## Jupyter Notebooks
 1. Garbage_Classification_Distill_BERT_Text.ipynb
 2. Garbage_Classification_ResNET50_TL_Image_Fine-tuning.ipynb
@@ -10,8 +13,9 @@
 1. garbage_classifier_fusion_learning(TALC_ver_Full_Multimodal).py
 
 ## Results
-[Run Resulting Confusion Matrix and Metrics](Run%20Resulting%20Confusion%20Matrix%20and%20Metrics.docx)
-This document contains the results after running the complete multimodal training on TALC cluster.
+**Confusion Matrix and Metrics**
+![Run Resulting Confusion Matrix and Metrics](./assets/Run%20Resulting%20Confusion%20Matrix%20and%20Metrics.png)
+
 
 ### Run Results
 
