@@ -2,11 +2,11 @@ Kleenex_Box_74.png
 Soiled_Cling_Wrap_953.png
 Air_Freshener_915.png
 Disposable_cup_13.png
-Dirty_Take_Out_Container_119.png
-Glass_Pot_72.png
+egg_carton_2773.png
+nespresso_box_266.png
 chewed_gum_1993.png
 Food_Container_71.png
-Wooden_Stirstick_39.png
+used_tea_bag_3050.png
 CD_case_2519.png
 Air_freshener_spray_bottle_2133.png
 Used_napkin_2723.png
