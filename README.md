@@ -1,5 +1,12 @@
 # ENSF-617 Assignment 2 - Garbage Classification
 
+## Group Detail
+**Group Number: 18**
+**Members:**
+- Le
+- Daky
+- Mark Angelo
+
 ## Flowchart
 ![Flowchart](./assets/Garbage_Classification_Transfer_Learning_Flowchart.png)
 
