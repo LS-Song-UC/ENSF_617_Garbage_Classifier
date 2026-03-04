@@ -40,6 +40,7 @@
 
 ./run_result_latest
 .
+├── misclassified_image_fine_tuned.txt
 ├── mm_confusion_matrix.png
 ├── mm_misclassified_final.txt
 ├── multimodal_loss_curve1.png
